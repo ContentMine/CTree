@@ -35,5 +35,9 @@ This MAY have a DTD. This causes problems as some parser will try to retrieve it
 
 ### scholarly.html
 Created from raw XML, HTML - possibly PDF.
-This is the primary input into `ami` and is [described here](https:///
+This is the primary input into `ami` and is [described here](https://github.com/ContentMine/CTree/blob/master/scholarly_html.md)
+
+### fulltext.pdf.txt
+A fast conversion of PDF into Text. Results and usefulness depend heavily on the formatting of the PDF (e.g. 2-columns may run into each other).
+
 
