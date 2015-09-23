@@ -13,9 +13,10 @@ Currently the name is created by:
  * from local files converted by `norma` , e.g. `/usr/bar/foo.pdf` => `_usr_bar_foo` (and `fulltext.pdf`)
  * bespoke creation (?)
  
-##non-directory files
-
 `toplevel` MUST only contain reserved filename and directory names.
+
+
+## raw files
 
 ### fulltext.pdf
 raw PDF for main text of document
@@ -30,4 +31,9 @@ raw TXT for main text of document. Very little can be guranteed from this.
 raw XML. This MUST be well-formed. However some publishers fail to resolve namespace prefixes and these may need to be deleted.
 This MAY have a DTD. This causes problems as some parser will try to retrieve it and may fail if they cannot download it. The system MAY have the power to delete DTD declarations.
 
+## transformed files
+
+### scholarly.html
+Created from raw XML, HTML - possibly PDF.
+This is the primary input into `ami` and is [described here](https:///
 
