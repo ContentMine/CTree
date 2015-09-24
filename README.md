@@ -6,7 +6,7 @@ Design specifications for ContentMine `CTree` and `CProject`.
 
 ## Document directory container [CTree](https://github.com/ContentMine/CTree/blob/master/CTree.md)
 
-## toplevel directory (https://github.com/ContentMine/CTree/blob/master/toplevel.md)
+## [toplevel directory] (https://github.com/ContentMine/CTree/blob/master/toplevel.md)
 
 ## results container [results](https://github.com/ContentMine/CTree/blob/master/results.md)
 
