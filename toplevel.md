@@ -47,8 +47,9 @@ Metadata extracted with `quickscrape` downloads. Typically includes
  * presence of reserved files
  * certain metadata in HTML headers e.g. authors, licence, 
  * 
- ISSUE: Should this continue to be called `results.json`?
-ISSUE: Should the contents only be created by `quickscrape`?
+*ISSUE*: Should this continue to be called `results.json`?
+
+*ISSUE*: Should the contents only be created by `quickscrape`?
 
 
 
