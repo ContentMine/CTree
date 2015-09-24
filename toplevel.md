@@ -46,13 +46,31 @@ A fast conversion of PDF into Text. Results and usefulness depend heavily on the
 Metadata extracted with `quickscrape` downloads. Typically includes 
  * presence of reserved files
  * certain metadata in HTML headers e.g. authors, licence, 
- * 
-*ISSUE*: Should this continue to be called `results.json`?
+ 
+***ISSUE***: Should this continue to be called `results.json`? perhaps `metadata.json` or `quickscrape.json`
 
-*ISSUE*: Should the contents only be created by `quickscrape`?
+***ISSUE***: Should the contents only be created by `quickscrape`?
 
+***NOTE***: this file is only created by `quickscrape` (Check or `getpapers`??)
 
+### manifest.json
+***PROPOSAL***
 
-## subdirectories (see CTree) 
+This does not exist. `norma` and `ami` might find it easier to have a single point of contact to find what was present in the `CTree`. 
+
+### log.xml
+***PROPOSAL***
+
+This does not exist. This would give a history of all operations which could or did affect the `CTree` contents. This is useful in debugging, audits. It would record failed attempts to create a file.
+
+***NOTE*** software exists to write this and it's been deployed in `ami-phylo`
+
+## file properties
+
+Files should be OS-independent as far as possible. Anyone with experience? Problems include:
+ * line endings
+ * character encoding. I suggest we normalise everything to `UTF-8` if possible.
+ * others?
+
 
 
