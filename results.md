@@ -49,5 +49,21 @@ would create:
 ```
 and a further call of 
 ```
-ami-sequence --sq.type dna rna
+ami-species --sp.type binomial genus
 ```
+would create:
+```
+    results/
+        sequence/
+            dna/
+            rna/
+        species/
+            binomial/
+            genus/
+```
+
+Each of the grandchild tips of `results` (e.g. `binomial`) will generally hold [`results.xml`](https://github.com/ContentMine/CTree/blob/master/results_xml.md ).
+
+
+
+
