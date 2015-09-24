@@ -1,7 +1,7 @@
 #toplevel directory of `CTree`
 
 
-This is the toplevel of a `CTree` and hs no reserved name. 
+This is the toplevel of a `CTree` and hs no reserved name. It is normally a child of a `CProject` and has `CTree` siblings.
 
 ##name
 
@@ -39,5 +39,19 @@ This is the primary input into `ami` and is [described here](https://github.com/
 
 ### fulltext.pdf.txt
 A fast conversion of PDF into Text. Results and usefulness depend heavily on the formatting of the PDF (e.g. 2-columns may run into each other).
+
+## metadata files
+ 
+### `results.json` . 
+Metadata extracted with `quickscrape` downloads. Typically includes 
+ * presence of reserved files
+ * certain metadata in HTML headers e.g. authors, licence, 
+ * 
+ ISSUE: Should this continue to be called `results.json`?
+ISSUE: Should the contents only be created by `quickscrape`?
+
+
+
+## subdirectories (see CTree) 
 
 
