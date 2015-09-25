@@ -2,7 +2,7 @@
 
 These are existing `Ctree`s and in places fail to honour the draft spec, which may need to accommodate them.
 
-## norma output in `target/plosone/`
+## norma output in `norma/target/plosone/`
 
 ```
 // names are derived from PLoSONE DOIs
@@ -44,7 +44,7 @@ plosone
 │       └── scholarly.html
 ```
 
-## images
+## images in `norma/target/images/`
 
 CTree created from a single PNG image and OCR'ed with Tesseract. Original file was `ijs.0.003566-0-000.pbm.png`. 
 
@@ -67,7 +67,7 @@ ijsem_003566/    // CTree
 
 ```
 
-## HTML transformation (`target/ieee/`)
+## HTML transformation (`norma/target/ieee/`)
 
 The XHTML are created from the non-well-formed HTML (a potentially lossy and corrupting process). Then
 `scholarly.html` are created from XHTML.
@@ -96,3 +96,16 @@ ieee
 │   ├── fulltext.xhtml
 │   └── scholarly.html
 ```
+
+## PDF ingestion (`cmine/target/project/theses/`)
+
+```
+theses1/
+├── HalThesis1_pdf
+│   └── fulltext.pdf
+├── HalThesis2_pdf
+│   └── fulltext.pdf
+└── smigaj_pdf
+    └── fulltext.pdf
+```
+
