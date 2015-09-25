@@ -118,7 +118,7 @@ theses1/
     └── fulltext.pdf
 ```
 
-## `ami-plugin` with single subtree in `results` and `expected/` subtree
+## `ami-plugin/target/onsort0/` with single subtrees in `results/` and `expected/`
 
 The `expected` subtree MAY be present to allow testing of processes and track regression. For a perfect search it
 should be identical to, or a subset of, the `result`.
