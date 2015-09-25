@@ -118,10 +118,33 @@ theses1/
     └── fulltext.pdf
 ```
 
-## `ami-plugin 'expected' subtree`
+## `ami-plugin` with single subtree in `results` and `expected/` subtree
 
 The `expected` subtree MAY be present to allow testing of processes and track regression. For a perfect search it
 should be identical to, or a subset of, the `result`.
+
+This a good example of a `quickscrape`-generated `CTree` where `fulltext.*` have been scraped, and the XML
+has been converted to `scholarly.html` and then searched with `ami-regex`. Note that every child of `15_1_511_test` 
+is a reserved file or subdirectory.
+
+```
+consort0
+└── 15_1_511_test      // CTree
+    ├── expected       // hand-generated (or copied) subtree which should match `results/`
+    │   └── regex
+    │       └── consort0
+    │           └── results.xml
+    ├── fulltext.html
+    ├── fulltext.pdf
+    ├── fulltext.xml
+    ├── results
+    │   └── regex
+    │       └── consort0
+    │           └── results.xml
+    ├── results.json
+    └── scholarly.html
+```
+## `ami-plugin/target/clin10/` showing `expected/` subtree
 
 ```
 clin10
