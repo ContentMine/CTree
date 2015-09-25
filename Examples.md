@@ -97,7 +97,16 @@ ieee
 │   └── scholarly.html
 ```
 
-## PDF ingestion (`cmine/target/project/theses/`)
+## PDF ingestion (`cmine/target/project/theses1/`)
+
+Directory `foo/` contained 3 theses.
+```
+├── HalThesis1.pdf
+├── HalThesis2.pdf
+└── smigaj.pdf
+```
+these have been ingested into new `CTree`s whose names are derived from the PDFs, and where the files
+have been COPIED into `fulltext.pdf` without change.
 
 ```
 theses1/
