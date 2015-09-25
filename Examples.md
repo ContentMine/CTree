@@ -2,7 +2,7 @@
 
 These are existing `Ctree`s and probably fail to honour the spec
 
-## norma output in `target`
+## norma output in `target/plosone/`
 
 ```
 // names are derived from PLoSONE DOIs
