@@ -43,3 +43,24 @@ plosone
 │       ├── results.json
 │       └── scholarly.html
 ```
+
+## images
+
+CTree created from a single PNG image and OCR'ed with Tesseract. Original file was `ijs.0.003566-0-000.pbm.png`. 
+
+***ISSUE***: cannot cope with more than one image per `CTree`
+
+The OCR transformation is:
+```
+foo.png => foo.hocr => foo.svg
+```
+
+* The HOCR is HTML from Tesseract, 
+* The SVG contains the coordinates, fonts/styles/sizes and words/phrases from HOCR.
+ijsem_003566/    // CTree
+└── image        // reserved directory
+    ├── ijs.0.003566-0-000.pbm.png
+    ├── ijs.0.003566-0-000.pbm.png.hocr
+    └── ijs.0.003566-0-000.pbm.png.hocr.svg
+
+```
