@@ -66,3 +66,33 @@ ijsem_003566/    // CTree
     └── ijs.0.003566-0-000.pbm.png.hocr.svg
 
 ```
+
+## HTML transformation (`traget/ieee/`)
+
+The XHTML are created from the non-well-formed HTML (a potentially lossy and corrupting process). Then
+`scholarly.html` are created from XHTML.
+```
+ieee
+├── 1196402
+│   ├── fulltext.html
+│   ├── fulltext.pdf
+│   ├── fulltext.xhtml
+│   ├── fulltext.xml
+│   └── results.json
+├── src_test_resources_org_xmlcml_norma_pubstyle_ieee_1196402_html
+│   ├── fulltext.html
+│   ├── fulltext.xhtml
+│   └── scholarly.html
+├── src_test_resources_org_xmlcml_norma_pubstyle_ieee_1196402edited_html
+│   ├── fulltext.html
+│   ├── fulltext.xhtml
+│   └── scholarly.html
+├── src_test_resources_org_xmlcml_norma_pubstyle_ieee_1196402site_html
+│   ├── fulltext.html
+│   ├── fulltext.xhtml
+│   └── scholarly.html
+├── src_test_resources_org_xmlcml_norma_pubstyle_ieee_1320344_html
+│   ├── fulltext.html
+│   ├── fulltext.xhtml
+│   └── scholarly.html
+```
