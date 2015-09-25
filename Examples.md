@@ -55,8 +55,10 @@ The OCR transformation is:
 foo.png => foo.hocr => foo.svg
 ```
 
-* The HOCR is HTML from Tesseract, 
-* The SVG contains the coordinates, fonts/styles/sizes and words/phrases from HOCR.
+ * The HOCR is HTML from Tesseract, 
+ * The SVG contains the coordinates, fonts/styles/sizes and words/phrases from HOCR.
+
+```
 ijsem_003566/    // CTree
 └── image        // reserved directory
     ├── ijs.0.003566-0-000.pbm.png
