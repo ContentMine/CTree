@@ -67,7 +67,7 @@ ijsem_003566/    // CTree
 
 ```
 
-## HTML transformation (`traget/ieee/`)
+## HTML transformation (`target/ieee/`)
 
 The XHTML are created from the non-well-formed HTML (a potentially lossy and corrupting process). Then
 `scholarly.html` are created from XHTML.
