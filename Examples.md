@@ -1,6 +1,6 @@
 #Examples of `CTree`s
 
-These are existing `Ctree`s and probably fail to honour the spec
+These are existing `Ctree`s and in places fail to honour the draft spec, which may need to accommodate them.
 
 ## norma output in `target/plosone/`
 
