@@ -118,3 +118,47 @@ theses1/
     └── fulltext.pdf
 ```
 
+## `ami-plugin 'expected' subtree`
+
+The `expected` subtree MAY be present to allow testing of processes and track regression. For a perfect search it
+should be identical to, or a subset of, the `result`.
+
+```
+clin10
+├── e0115544
+│   ├── expected    // expected results, mirroring "results/"
+│   │   ├── gene
+│   │   │   ├── human
+│   │   │   │   └── results.xml
+│   │   │   └── mouse
+│   │   │       └── results.xml
+│   │   ├── identifier
+│   │   │   ├── bio.ena
+│   │   │   │   └── results.xml
+│   │   │   ├── clin.isrctn
+│   │   │   │   └── results.xml
+│   │   │   └── clin.nct
+│   │   │       └── results.xml
+│   │   ├── regex
+│   │   │   └── consort0
+│   │   │       └── results.xml
+│   │   ├── species
+│   │   │   ├── binomial
+│   │   │   │   └── results.xml
+│   │   │   ├── genus
+│   │   │   │   └── results.xml
+│   │   │   └── genussp
+│   │   │       └── results.xml
+│   │   └── word
+│   │       └── frequencies
+│   │           ├── results.html
+│   │           └── results.xml
+│   ├── fulltext.xml      // raw XML
+│   ├── results           // in fact only "identifier" was run
+│   │   └── identifier
+│   │       ├── clin.isrctn
+│   │       │   └── results.xml
+│   │       └── clin.nct
+│   │           └── results.xml
+│   └── scholarly.html    // scholarly HTML created from XML and used for search.
+```
